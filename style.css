@@ -1,0 +1,168 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'DM Sans', sans-serif;
+}
+
+html, body{
+    width: 100%;
+    height: 100vh;
+}
+
+.main{
+    width: 1400px ;
+    height: 890px;
+    background-color:#2F1893 ;
+    position: relative;
+}
+
+.nav {
+    height: 40px;
+    width: 972px;
+    /* background-color: aliceblue; */
+    position: absolute;
+    top: 60px; /* Position 60px from the top of .main */
+    left: 50%; /* Center the .nav horizontally within .main */
+    transform: translateX(-50%); /* Center horizontally */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#navLeft h2{
+    color: white;
+    font-size: ;
+    font-weight: 700;
+}
+
+.nav #navRight{
+    display:flex ;
+    color: white;
+    justify-content: space-between;
+}
+
+#navRight a{
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+    font-weight: 500;
+    align-self: center;
+    font-size: 18px;
+
+}
+
+#navRight a:hover{
+    text-decoration: underline;
+}
+
+
+#navRight button{
+    background-color: #E93A7D;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 30px;
+    padding: 9px 30px;
+}
+
+#hero{
+    width: 972px;
+    height: 600px;
+    /* background-color: aqua; */
+    position: absolute;
+    top: 187px;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#hero #heroLeft{
+    width: 427px;
+    height: 486px;
+    /* background-color: bisque; */
+}
+
+#heroLeft h2{
+    font-size: 58px;
+    line-height: 70px;
+    letter-spacing: -1px;
+    font-weight: 700;
+    color: white;
+}
+#heroLeft p{
+    margin-top: 30px;
+    font-size: 22px;
+    line-height: 32px;
+    letter-spacing: -1px;
+    font-weight: 500;
+    color: white;
+}
+
+#heroLeft button{
+    background-color: #E93A7D;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 30px;
+    padding: 9px 30px;
+    margin-top: 42px;
+}
+
+
+
+
+#hero #heroRight{
+    height: 600px;
+    width: 470px;
+    padding: 30px 50px;
+    background-color:#FFFFFF;
+    border-radius: 15px;
+}
+
+ #formTitle h3{
+    margin-bottom: 20px;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: -1px;
+    color:#2F1893;
+    text-align: center;
+}
+
+.signUpForm{
+    display: flex;
+}
+.inputFeild{
+    height: 50px;
+    width: 100%;
+    color: #EBEAED;
+    padding-left: 20px;
+    font-size: 18px;
+    line-height: 26px;
+    margin-bottom: 20px;
+    border: 2px solid #EBEAED;
+    border-radius: 30px;
+    background-color:white;
+}
+
+#agreement, #signIn{
+    margin: 30px auto;
+}
+
+#signIn a{
+    text-decoration: none;
+    color: aqua;
+}
+
+#twitter{
+    background-color: #1DA1F2;
+    border: none;
+}
+
+#signIn{
+    border: none;
+    background-color: #482BE7;
+}
